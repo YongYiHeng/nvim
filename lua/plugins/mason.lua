@@ -6,6 +6,7 @@ return {
       ensure_installed = {
         "lua_ls",
         "pyright",
+        "clangd"
       },
     },
     dependencies = {
@@ -34,6 +35,7 @@ return {
         "black", -- python formatter
         "pylint",
         "eslint_d",
+        "clang-format",
       },
     },
     dependencies = {
